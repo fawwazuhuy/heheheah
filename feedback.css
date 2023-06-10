@@ -1,0 +1,51 @@
+
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 3rem;
+  }
+  
+  .sarimie {
+    display: block;
+    /* max-width: 128px; */
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px;
+    padding: 5px;
+    width: 35%;
+  }
+  
+
+  .title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+  
+  .form-label {
+    display: block;
+    /* font-weight: bold; */
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  textarea.form-control {
+    resize: vertical;
+  }
+  
+.becak{
+  text-align: left;
+  margin: 10px;
+}

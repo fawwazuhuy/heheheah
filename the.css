@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-tambah {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#kotak {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 540px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+
+#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("./img/paperwall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+  }
+
+  #feedback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background-image: url("./img/paperwall.jpg"); */ 
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ayam {
+    color: white;
+    background-color: #fff 0,75;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 10px;
+    width: 400px;
+    height: auto;
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+  }
+
+  .ayam a {
+    color: cyan;
+  }
+  
+
+.title {
+    text-align: center;
+}
+
+.form-login {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=tel],
+input[type=number] {
+    display: block;
+    width: 100%;
+    margin: 0 auto; /* Tambahkan margin auto untuk pusatkan input */
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    box-sizing: border-box; /* Set box-sizing ke border-box agar ukuran total input termasuk padding dan border */
+  }
+
+  .btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: #548CFF;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #7900FF;
+    border-color: #0062cc;
+  }
+
+/* Navbar styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+
+.nav-brand {
+  margin-right: auto;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin-bottom: 0;
+  
+}
+
+.nav-item {
+  margin-left: 10px;
+ 
+}
+
+.nav-item:last-child {
+  margin-left: 0;
+}
+
+.nav-item a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  border-radius: 0,25rem;
+  background-color: #333;
+  margin-left:10px;
+}
+
+.nav-item a:hover {
+  background-color: #fff;
+  color: #333;
+
+}
+
+/* .nav-toggle {
+  display: none;
+  background-color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  color: #333; 
+} */
+
+.nav- {
+  display: flex;
+  padding: 8px 16px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.nav-toggle:hover {
+  background-color: darkred;
+}
+
+
+/* @media only screen and (max-width: 768px) {
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .nav-item {
+    margin: 10px 0;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+} */
+
+/* .nav-menu {
+  display: none;
+  flex-direction: column;
+  background-color: #333;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+.nav-item {
+  margin: 10px 0;
+}
+
+.nav-toggle {
+  display: block;
+} */
+
+.search-box form {
+  position: relative;
+  width: 100%;
+  margin: 30px auto;
+  box-sizing: border-box;
+}
+
+.search-box input[type="text"] {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 50px 10px 20px;
+  font-size: 18px;
+  background-color: #f5f5f5;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+
+.search-box i.fa {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #999;
+}
+
+.search-box input[type="text"]:focus + i.fa {
+  color: #333;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #e3e6f0;
+  border-radius: 0.50rem; 
+  margin: 7px; 
+}
+
+hr {
+  background-color: black;
+  margin-right: auto;
+  margin-left: auto;
+  width: 700px;
+  height: 3px;
+}
+
+
+
+.lgout{
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  cursor: pointer; 
+  margin-left: 2px;
+  background: red;
+  color:white;
+}
+
+textarea {
+  overflow: auto;
+  resize: vertical;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-right: -0.75rem;
+  margin-left: -0.75rem; */
+}
+
+.mamamia{
+  /* max-width:  ; */
+  /* padding: 2rem; */
+  width: 100%;
+  gap: none;
+  /* margin-left: 100px;
+  margin-right: 100px; */
+}
+
+/* .row-cols-2 > * {
+  flex: 0 0 50%;
+  max-width: 50%;
+} */
+
+
+/* @media (min-width: 768px) {
+.row-cols-md-2 >* {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+} */
+
+.ambatunat {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 50%;
+  /* width: 20rem; */
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+
+
+}
+
+.mercury{
+  display:flex;
+  /* justify-content: center !important;
+  align-items: center !important; */
+  margin-top: 0 !important;
+  padding-left:auto;
+  padding-right:auto;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.col-md-4 {
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+  max-height: 150px;
+}
+
+.col-md-8 {
+  flex: 0 0 66.66667%;
+  max-width: 66.66667%;
+}
+
+.card-img {
+  width: 250px;
+  height: 150px;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  width: 100%;
+}
+
+.card-title {
+  margin-bottom: 0.75rem;
+}
+
+.classico{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+
+}
+
+.ambasing{
+  margin-bottom: 1rem;
+}
+
+.masuk{
+  text-decoration: none; 
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.img-fluid {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.container {
+  width: 60%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
+}
+
+.imgkotakk{
+  border-radius: 0.35rem; 
+  /* width: 100px; */
+}
+
+.miesedap{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  /* border: 1px solid #e3e6f0; */
+  border-radius: 0.50rem; 
+  margin: 7px;
+  justify-content: center;
+}
+
+.indomie{
+  display: block;
+  /* max-width: 128px; */
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #e3e6f0;
+  padding: 5px;
+  width: 35%;
+}
+
+
+.budi{
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem; 
+}
+
+
+.nyrotong{
+
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+.kons{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sambalado{
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.duar{
+  padding: 3rem !important;
+  /* height: 1000px; */
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+
+}
+
+.lele{
+  /* display: grid;
+  grid-row:inherit ; */
+}
+
+.farhan{
+  padding: 3rem;
+  /* flex: 0 0 20%; */
+  max-width: 40%;
+}
+
+.ragil{
+  margin-top: 5rem;
+  max-width: 70%;
+}
+
+.eltenaro{
+  text-align: center !important;
+  margin: 1rem;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.anime{
+  background-color: #007bff;
+  color: white;
+
+}
+
+.kartun{
+  background-color: red;
+  color:white;
+}
+
+.seiza{
+  text-align: center !important;
+  border-top: #333;
+}
+
+.kotagz{
+  position: block;
+  max-width: 600px;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  border-color: #333;
+  border-style: 1px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.th{
+  display: table-cell;
+}
